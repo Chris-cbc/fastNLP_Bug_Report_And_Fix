@@ -153,7 +153,7 @@ if __name__=="__main__":
     processor = CustomizedNER(modelFile, vocabFile)
     from time import time
     # 测试样例
-    msg = ["丁先生住在云南省保山市腾冲市州门前路东100米, 昨天他去了江苏省盐城市响水县小尖镇致富路9号门的李先生家里还东西"]
+    msg = ["-鐖丁先生住在云南省保山市腾冲市州门前路东100米, 昨天他去了江苏省盐城市响水县小尖镇致富路9号门的李先生家里还东西"]
     start = time()
     for x in msg:
         processor.formatRowString(x)
